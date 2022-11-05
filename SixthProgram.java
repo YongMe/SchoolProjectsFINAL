@@ -1,5 +1,3 @@
-package SchoolProjects2;
-
 import java.util.Scanner;
 public class SixthProgram {
     public static void main(String[] args) {
