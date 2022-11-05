@@ -1,4 +1,3 @@
-package SchoolProjects2;
 import java.io.*;
 public class FirstProgram {
     public static void main(String[] args)throws IOException{
