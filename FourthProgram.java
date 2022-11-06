@@ -5,7 +5,7 @@ public class FourthProgram {
         int[] arr = {9,23,34,45,78,99,120,246,299,346,432,436,500};
         int first = 0, last = arr.length;
         int mid = (first + last)/2;
-        System.out.print("Enter the element to be found ");
+        System.out.print("Enter the element to be found: ");
         int key = sc.nextInt();
         while( first <= last ){
             if ( arr[mid] < key ){
