@@ -10,7 +10,7 @@ public class FirstProgram {
             System.out.print("Enter the name of the student: ");
             names[i] = br.readLine();
             System.out.print("Enter the marks obtained: ");
-            marks[i] = Integer.parseInt(br.readLine());
+            marks[i] = Double.parseDouble(br.readLine());
         }
 
         int minMarksIndex = 0, maxMarksIndex = 0;
