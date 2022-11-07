@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class FifthProgram {
+public class VowelRemoval {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the word: ");
