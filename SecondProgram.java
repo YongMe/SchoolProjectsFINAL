@@ -12,12 +12,12 @@ public class Grading {
             ar[i] = sc.nextDouble();
             sum += ar[i];
         }
-        double percentage = sum/1000 * 100;
-        if(percentage < 50)
+        double percentage = sum/1000.0 * 100.0;
+        if(percentage < 50.0)
             grade = 'D';
-        else if(percentage >= 50 && percentage < 60)
+        else if(percentage >= 50.0 && percentage < 60.0)
             grade = 'C';
-        else if(percentage >= 60 && percentage < 80)
+        else if(percentage >= 60.0 && percentage < 80.0)
             grade = 'B';
         else
             grade = 'A';
