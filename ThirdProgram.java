@@ -6,10 +6,10 @@ public class ElementRemoval
     {
         Scanner sc=new Scanner(System.in);
         int n;    //Array Size Declaration
-        System.out.print("Enter the number of elements :");
+        System.out.print("Enter the number of elements: ");
         n=sc.nextInt();    //Array Size Initialization
 
-        Integer arr[]=new Integer[n];    //Array Declaration
+        int arr[]=new int[n];    //Array Declaration
         System.out.println("Enter the elements of the array :");
         for(int i=0;i<n;i++)     //Array Initialization
         {
