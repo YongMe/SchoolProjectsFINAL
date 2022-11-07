@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ThirdProgram
+public class ElementRemoval
 {
     public static void main(String[] args)
     {
