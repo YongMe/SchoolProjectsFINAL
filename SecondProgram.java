@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SecondProgram {
+public class Grading {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double[] ar = new double[10];
