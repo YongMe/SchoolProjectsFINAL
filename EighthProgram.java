@@ -6,9 +6,9 @@ public class FrequencyCount {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
-        int c1,c2,c3,c4,c5;
+        int c1,c2,c3,c4,c5,i;
         c1=c2=c3=c4=c5=0;
-        for (int i = 0; i < s.length(); i++) {
+        for (i = 0; i < s.length(); i++) {
             if(Character.toLowerCase(s.charAt(i)) == 'a')
                 c1++;
             if(Character.toLowerCase(s.charAt(i)) == 'e')
