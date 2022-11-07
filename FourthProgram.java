@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class FourthProgram {
+public class BinarySearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = {9,23,34,45,78,99,120,246,299,346,432,436,500};
