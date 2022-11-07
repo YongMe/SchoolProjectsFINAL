@@ -7,7 +7,7 @@ public class Grading {
         int i;
         double sum = 0.0;
         char grade;
-        System.out.println("Enter the marks of the 10 subjects :");
+        System.out.println("Enter the marks of the 10 subjects:");
         for (i = 0; i < ar.length; i++) {
             ar[i] = sc.nextDouble();
             sum += ar[i];
