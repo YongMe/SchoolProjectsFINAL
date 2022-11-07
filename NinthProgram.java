@@ -6,7 +6,8 @@ public class PalindromeWordCheck {
         System.out.print("Enter a word: ");
         String word = sc.next();
         String word1 = "";
-        for (int i = word.length() - 1; i >= 0; i--)
+        int i;
+        for (i = word.length() - 1; i >= 0; i--)
             word1 += word.charAt(i);
         if(word.equalsIgnoreCase(word1))
             System.out.println(word + " is a palindrome word");
