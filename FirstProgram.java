@@ -1,5 +1,5 @@
 import java.io.*;
-public class FirstProgram {
+public class Marks {
     public static void main(String[] args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         double[] marks = new double[10];
