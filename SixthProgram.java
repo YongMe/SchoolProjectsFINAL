@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class SixthProgram {
+public class LexicographicalComparison {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first string: ");
