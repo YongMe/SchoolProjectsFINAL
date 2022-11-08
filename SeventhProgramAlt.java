@@ -1,5 +1,5 @@
 import java.io.*;
-public class questionFIVE2008
+public class ToggleString
 {
     public static void main(String args[]) throws IOException
     {
