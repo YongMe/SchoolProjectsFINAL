@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class ToggleString {
     public static String toggleCase(String s){
         String s1="";
-        for (int i = 0; i < s.length(); i++) {
+        int i;
+        for (i = 0; i < s.length(); i++) {
             if(Character.isUpperCase(s.charAt(i)))
                 s1 += Character.toLowerCase(s.charAt(i));
             else if(Character.isLowerCase(s.charAt(i)))
