@@ -32,7 +32,7 @@ public class ElementRemoval
             }
         }
 
-        System.out.println("Elements after deletion:" );
+        System.out.println("Elements after deletion" );
         for(i = 0; i < arr.length-1; i++)
         {
             System.out.print(arr[i]+ " ");
