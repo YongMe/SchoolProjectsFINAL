@@ -11,7 +11,7 @@ public class NameShortening {
             if(name1.charAt(i) != ' ')
                 word += name1.charAt(i);
             else{
-                name2 = name2 + Character.toUpperCase(word.charAt(0)) + ". ";
+                name2 += Character.toUpperCase(word.charAt(0)) + ". ";
                 word = "";
             }
         }
