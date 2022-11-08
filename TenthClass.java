@@ -6,7 +6,8 @@ public class NameShortening {
         System.out.print("Enter a name: ");
         String name1 = sc.nextLine(), word="";
         String name2 = "";
-        for (int i = 0; i < name1.length(); i++) {
+        int i;
+        for (i = 0; i < name1.length(); i++) {
             if(name1.charAt(i) != ' ')
                 word += name1.charAt(i);
             else{
