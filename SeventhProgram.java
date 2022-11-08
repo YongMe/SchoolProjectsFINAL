@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SeventhProgram {
+public class ToggleString {
     public static String toggleCase(String s){
         String s1="";
         for (int i = 0; i < s.length(); i++) {
